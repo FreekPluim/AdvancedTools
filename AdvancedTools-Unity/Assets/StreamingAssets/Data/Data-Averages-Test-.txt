@@ -1,0 +1,126 @@
+Average FPS each test - BlockFall - cam pointed
+
+Average 1000 - 124 
+Average 1000 - 125 
+Average 1000 - 125 
+Average 5000 - 35 
+Average 5000 - 35 
+Average 5000 - 34 
+Average 10000 - 15 
+Average 10000 - 15 
+Average 10000 - 15 
+Average 50000 - 3 
+Average 50000 - 3 
+Average 50000 - 3 
+Average 100000 - 3 
+Average 100000 - 3 
+Average 100000 - 3 
+Average 500 - 159 
+Average 500 - 159 
+
+
+Average FPS each test - BlockFall - cam Not pointed
+
+Average 500 - 175 
+Average 500 - 174 
+Average 500 - 173 
+Average 1000 - 142 
+Average 1000 - 143 
+Average 1000 - 142 
+Average 5000 - 46 
+Average 5000 - 46 
+Average 5000 - 46 
+Average 10000 - 21 
+Average 10000 - 21 
+Average 10000 - 21 
+Average 50000 - 3 
+Average 50000 - 3 
+Average 50000 - 3 
+Average 100000 - 3 
+Average 100000 - 3 
+Average 100000 - 3 
+
+
+---==========================================---
+
+
+Average FPS each test - Gravity Well - cam pointed
+
+Average 100 - 235 
+Average 100 - 227 
+Average 100 - 232 
+Average 500 - 137 
+Average 500 - 138 
+Average 500 - 138 
+Average 1000 - 100 
+Average 1000 - 101 
+Average 1000 - 100 
+Average 5000 - 20 
+Average 5000 - 21 
+Average 5000 - 20 
+Average 10000 - 4 
+Average 10000 - 4 
+Average 10000 - 4 
+Average 50000 - 3 
+Average 50000 - 3 
+Average 50000 - 3 
+
+Average FPS each test - Gravity Well - cam NOT pointed
+
+Average 100 - 179 
+Average 100 - 179 
+Average 100 - 180 
+Average 500 - 128 
+Average 500 - 129 
+Average 500 - 129 
+Average 1000 - 96 
+Average 1000 - 96 
+Average 1000 - 97 
+Average 5000 - 21 
+Average 5000 - 21 
+Average 5000 - 20 
+Average 10000 - 3 
+Average 10000 - 3 
+Average 10000 - 3 
+Average 50000 - 3 
+Average 50000 - 3 
+Average 50000 - 3 
+
+
+---==========================================---
+
+Average FPS each test - Chaos - cam pointed
+
+Average 100 - 163 
+Average 100 - 162 
+Average 100 - 164 
+Average 500 - 86 
+Average 500 - 87 
+Average 500 - 87 
+Average 1000 - 53 
+Average 1000 - 53 
+Average 1000 - 51 
+Average 5000 - 23 
+Average 5000 - 23 
+Average 5000 - 22 
+Average 10000 - 6 
+Average 10000 - 5 
+Average 10000 - 6 
+
+Average FPS each test - Chaos - cam Not pointed
+
+Average 100 - 204 
+Average 100 - 205 
+Average 100 - 205 
+Average 500 - 168 
+Average 500 - 166 
+Average 500 - 165 
+Average 1000 - 133 
+Average 1000 - 132 
+Average 1000 - 132 
+Average 5000 - 30 
+Average 5000 - 29 
+Average 5000 - 28 
+Average 10000 - 7 
+Average 10000 - 7 
+Average 10000 - 7 

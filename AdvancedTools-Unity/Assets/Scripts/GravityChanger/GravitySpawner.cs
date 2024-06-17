@@ -11,7 +11,7 @@ public class GravitySpawner : Spawner
     {
         for (int i = 0; i < objects; i++)
         {
-            Instantiate(M_objects[Random.Range(0, M_objects.Count)], (transform.position + (Random.insideUnitSphere * spawnRange)), Quaternion.identity, transform);
+            Instantiate(M_objects[i % 2], (transform.position + (Random.insideUnitSphere * spawnRange)), Quaternion.identity, transform);
         }
     }
 

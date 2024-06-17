@@ -31,7 +31,7 @@ public class DataTracker : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (gravityChanger != null) gravityChanger.ChangeGravity = true;
-            spawner.Spawn();
+            
             StartCoroutine(Timer());
         }
 
@@ -44,16 +44,24 @@ public class DataTracker : MonoBehaviour
 
     IEnumerator Timer()
     {
-        for (int i = 0; i < testTime; i++)
+        for (int j = 0; j < 3; j++)
         {
-            yield return new WaitForSeconds(1);
-            Debug.Log(fpsCounter.GetCountedFrames());
-            results.Add(fpsCounter.GetCountedFrames());
+
+            spawner.Spawn();
             fpsCounter.ResetCounter();
+                for (int i = 0; i < testTime; i++)
+                {
+                    yield return new WaitForSeconds(1);
+                    results.Add(fpsCounter.GetCountedFrames());
+                    fpsCounter.ResetCounter();
+                }
+            WriteToTxt();
+            spawner.DestroyAll();
+            results.Clear();
+            yield return new WaitForSeconds(2);
         }
-        WriteToTxt();
-        spawner.DestroyAll();
-        results.Clear();
+
+        Debug.Log("done - " + spawner.objects);
     }
 
 
@@ -84,8 +92,6 @@ public class DataTracker : MonoBehaviour
         File.AppendAllText(txtDocName, "\n\n");
 
         addToAverages(totalFps);
-
-        Debug.Log("Done Writing to file");
     }
 
     void addToAverages(int totalFps)

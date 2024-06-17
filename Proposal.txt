@@ -1,0 +1,10 @@
+Scenario 1 (Control): 		Spawning cubes with rigidbodies in a random location in a sphere and letting them drop.
+Scenario 2 (Controlled Chaos): 	Spawning cubes and spheres inside of a box all with rigidbodies and gravity applied. The gravity is strong and rotates counter clockwise. All objects will collide with each other and tumble.	
+Scenario 3 (Pure chaos): 	Spawning spheres with rigidbodies and a random velocity in a random direction and let these bounce around. 
+
+For all these tests we will be measuring the fps over 30 seconds, increasing the amound of objects with every test.
+All tests will also be executed with and without the camera pointing at the objects in question.
+
+This test will be done in both Unity and Unreal Engine 5.
+
+All of these tests are to measure which engine handles physics better and the effect of rendering on the fps.
